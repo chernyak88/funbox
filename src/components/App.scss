@@ -1,0 +1,23 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+
+h1 {
+  font-family: "Exo2.0";
+  font-size: 2.25em;
+  letter-spacing: .05em;
+  margin: 0;
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+@font-face {
+  font-family: "Exo2.0"; 
+  src: url("../fonts/Exo2.0.otf") format("truetype"); 
+  font-style: normal; 
+  font-weight: normal; 
+}
